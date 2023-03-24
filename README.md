@@ -24,7 +24,7 @@
     - [Key Features](#key-features)
         first feature 
   - [🚀 Live Demo](#live-demo)
-     
+    * https://gonzaloalonzo.github.io/setupandmobilefirst/
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   Follow the link that you can open in any browser
@@ -37,7 +37,7 @@
   - [Run tests](#run-tests)
     linders
   - [Deployment](#triangular_flag_on_post-deployment)
-    none
+    https://gonzaloalonzo.github.io/setupandmobilefirst/
 - [👥 Authors](#authors)
     Gonzalo Alonzo
 - [🔭 Future Features](#future-features)
