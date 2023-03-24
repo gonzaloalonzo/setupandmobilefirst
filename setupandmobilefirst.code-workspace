@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "setupandmobilefirst",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "setupandmobilefirst"
+	}
+}
