@@ -71,8 +71,5 @@ ul {
   display: flex;
   justify-content: space-evenly;
   margin-left: 2%;
-}
-
-ul {
   list-style: none;
 }
