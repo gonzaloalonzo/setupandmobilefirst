@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-title {
+  font-family: 'Poppins', sans-serif;
+  color: blue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.fa-bars {
+  margin: 2%;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #17284d;
+  margin-top: 30%;
+  flex-grow: initial;
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+
+.job {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  margin: 5%;
+}
+
+.contact {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  color: #7f8cff;
+  margin-left: 5%;
+}
+
+ul {
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 2%;
+  list-style: none;
+}
