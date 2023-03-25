@@ -3,8 +3,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,9 +66,12 @@ h2 {
   margin-left: 5%;
 }
 
-.socialmedia {
-  width: 120px;
+ul{
+  width: 150px;
   display: flex;
   justify-content: space-evenly;
   margin-left: 2%;
+}
+ul{
+  list-style: none;
 }
