@@ -73,7 +73,7 @@ h2 {
 }
 
 .title {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -97,13 +97,23 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
+.card p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  letter-spacing: 0.1em;
+}
+
 .cards .canopy p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -111,11 +121,11 @@ h2 {
 }
 
 .cards .canopy li {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: #7A869A
+  color: #7a869a;
 }
 
 .cards .canopy {
@@ -134,13 +144,13 @@ h2 {
 }
 
 .cards .button ul {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   display: flex;
   text-align: center;
   border: none;
@@ -148,7 +158,7 @@ h2 {
 }
 
 .cards .button ul li {
-  background: #EBEBFF;
+  background: #ebebff;
   width: 92px;
   list-style: none;
   border: 1px solid white;
@@ -156,9 +166,7 @@ h2 {
 }
 
 .card {
-  /* Card Works */
   box-sizing: border-box;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,26 +174,12 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 600px;
-  /* Neutrals/N0 */
-  background: #FFFFFF;
-  /* Neutrals/N40 */
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-.card p {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  letter-spacing: 0.1em;
-
 }
 
 .cardimg {
@@ -197,7 +191,7 @@ h2 {
   margin-top: 1.5rem;
   width: 250px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
