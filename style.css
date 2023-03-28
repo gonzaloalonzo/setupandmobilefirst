@@ -127,12 +127,13 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
-.cards .button{
-display: grid;
-grid-template-columns: repeat(1, 60%);
+
+.cards .button {
+  display: grid;
+  grid-template-columns: repeat(1, 60%);
 }
 
-.cards .button ul{
+.cards .button ul {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -141,18 +142,19 @@ grid-template-columns: repeat(1, 60%);
   letter-spacing: 0.03em;
   color: #6070FF;
   display: flex;
- text-align: center;
- border: none;
- align-items: start;
+  text-align: center;
+  border: none;
+  align-items: start;
 }
 
 .cards .button ul li {
-background: #EBEBFF;
-width: 92px;
-list-style: none;
-border: 1px solid white;
-border-radius: 5%;
+  background: #EBEBFF;
+  width: 92px;
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 5%;
 }
+
 .card {
   /* Card Works */
   box-sizing: border-box;
@@ -175,15 +177,15 @@ border-radius: 5%;
   flex-grow: 0;
 }
 
-.card p{
+.card p {
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
-letter-spacing: 0.1em;
-lett
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  letter-spacing: 0.1em;
+
 }
 
 .cardimg {
@@ -191,23 +193,23 @@ lett
   height: 220px;
 }
 
-.proyect{
+.proyect {
   margin-top: 1.5rem;
-width: 250px;
-height: 24px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #396df2;
+  width: 250px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
 }
 
-.proyect button{
+.proyect button {
   border: 2px solid #396df2;
   width: 150px;
   height: 50px;
