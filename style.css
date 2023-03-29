@@ -35,7 +35,9 @@
   margin: 2%;
 }
 
-h2 {
+.presentation h2 {
+  width: 327px;
+  height: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -48,9 +50,13 @@ h2 {
   flex-grow: initial;
   margin-bottom: 10%;
   margin-left: 10%;
+  display: flex;
+  align-items: center;
 }
 
-.job {
+.job p {
+  width: 327px;
+  height: 147px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -79,6 +85,7 @@ h2 {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  margin: 0.5rem;
 }
 
 .socialmedia ul {
@@ -102,22 +109,32 @@ h2 {
   border-radius: 16px;
 }
 
-.card p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  letter-spacing: 0.1em;
-}
 
-.cards .canopy p {
+.card .canopy p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   color: #344563;
+}
+
+.card .canopy ul {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+  padding: 0.1rem;
+}
+
+
+.card article {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  letter-spacing: 0.1em;
 }
 
 .cards .canopy li {
@@ -187,27 +204,99 @@ h2 {
   height: 220px;
 }
 
-.proyect {
+.proyect a {
   margin-top: 1.5rem;
   width: 250px;
-  height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+
+.proyect button {
+  border: 2px solid #6070ff;
+  width: 126px;
+  height: 48px;
+  border-radius: 8px;
+  margin-left: 25%;
+  padding: 12px;
+  background-color: #fff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #396df2;
 }
 
-.proyect button {
-  border: 2px solid #396df2;
+.aboutmyself h2 {
+  width: 327px;
+  height: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin: 5%;
+}
+
+.aboutmyself .contact {
   width: 150px;
-  height: 50px;
-  border-radius: 10%;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 5%;
+}
+
+.get {
+  margin-top: 1.5rem;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.2em;
+
+}
+
+.get button {
+  border: 2px solid #6070ff;
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
   text-decoration: none;
   margin-left: 25%;
+  padding: 12px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+}
+
+.image img {
+  height: 5em;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.logo .leng {
+  justify-self: flex-start;
+  font-size: 3em;
 }
