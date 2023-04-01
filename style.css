@@ -4,24 +4,24 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
 .seconback {
-  position: relative;
   background-color: #f6f5f5;
-  height: 4769px;
   width: 375px;
-  top: 16.167px;
-  margin-left: 15%;
 }
 
 .navbar {
   display: flex;
-  grid-template-columns: auto auto;
+  flex-direction: row;
   width: 375px;
-  height: 18px;
-  left: 0;
-  top: 0;
   background: #fff;
   justify-content: space-between;
+  padding: 16px 20px;
 }
 
 .navbar a {
@@ -31,24 +31,15 @@
 .navbar img {
   width: 20px;
   height: 20px;
-  position: relative;
-  top: 1%;
-  left: 21.67%;
-  right: 16.67%;
-  bottom: 50%;
 }
 
 .brand-title {
-  position: relative;
   font-family: 'Poppins', sans-serif;
   color: blue;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  margin-top: 5px;
-  margin-left: 11px;
-  left: 18%;
 }
 
 .presentation {
@@ -212,17 +203,19 @@
   margin-left: -22px;
 }
 
+.contactus header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contactus header p {
-  position: relative;
   width: 327px;
-  height: 137px;
-  top: -24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  margin-left: 5%;
   text-align: center;
   color: #ebebff;
 }
@@ -278,6 +271,10 @@
   margin-top: -27px;
 }
 
+.web-stack ul {
+  padding: 0;
+}
+
 .card .canopy ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -288,7 +285,7 @@
   margin-right: 6%;
 }
 
-.card article {
+.card-description {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -297,7 +294,6 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  letter-spacing: 0.05em;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -398,35 +394,6 @@
   margin-left: 0.5rem;
 }
 
-/*
-.cards .button ul {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: #6070ff;
-  text-align: center;
-  display: flex;
-  justify-content: start;
-  padding-left: 0.1em;
-  margin-top: -1.9em;
-}
-
-.cards .button ul li {
-  width: 92px;
-  height: 24px;
-  padding: 4px 1px;
-  background: #ebebff;
-  list-style: none;
-  border: 1px solid white;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-left: 1%;
-}  */
-
 .cardimg {
   width: 295px;
   height: 220px;
@@ -464,7 +431,6 @@
   background-repeat: no-repeat;
   background-size: auto;
   width: 375px;
-  height: 1263px;
 }
 
 .aboutmyself h2 {
@@ -589,6 +555,14 @@
   flex-grow: 0;
 }
 
+.web-stack-item img {
+  margin-right: 15px;
+}
+
+.web-stack-header img {
+  height: 20px;
+}
+
 .leng .image img {
   width: 48px;
   height: 48px;
@@ -639,36 +613,31 @@
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+
+  /* position: absolute; */
   width: 375px;
   height: 779px;
   left: 0;
-  top: 4400px;
+
+  /* top: 4400px; */
   flex: grid;
   grid-template-columns: (1, 1fr);
 }
 
 .contactus header h2 {
-  width: 801px;
-  height: 56px;
-  margin-top: 42%;
-  padding-left: 1.5em;
+  padding-top: 150px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #fff;
+  margin: 0;
 }
 
 hr {
-  width: 290px;
-  margin-left: 1em;
+  width: 90%;
   border-color: #dfe1df;
-  margin-bottom: 24px;
 }
 
 form {
@@ -731,4 +700,38 @@ form .btn {
 .botton {
   position: relative;
   bottom: -4%;
+}
+
+
+/* Web Stacks  */
+.web-stacks {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.web-stack {
+  width: 85%;
+}
+
+.web-stack-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-stack-item {
+  list-style: none;
+  display: flex;
+  padding: 15px;
+  background-color: #f7f7f9;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+  /* border: 1px solid red; */
 }
