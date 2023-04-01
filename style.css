@@ -614,12 +614,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* position: absolute; */
   width: 375px;
   height: 779px;
   left: 0;
 
-  /* top: 4400px; */
   flex: grid;
   grid-template-columns: (1, 1fr);
 }
@@ -702,8 +700,6 @@ form .btn {
   bottom: -4%;
 }
 
-
-/* Web Stacks  */
 .web-stacks {
   display: flex;
   flex-direction: column;
@@ -732,6 +728,4 @@ form .btn {
   background-color: #f7f7f9;
   margin-bottom: 10px;
   border-radius: 10px;
-
-  /* border: 1px solid red; */
 }
