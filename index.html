@@ -242,7 +242,7 @@
           I’d love to help with it!</p>
       </header>
 
-      <form action="submit">
+      <form action="/my-handling-form-page" method="post">
         <ul>
           <li>
             <label for="name">Name:</label>
@@ -258,7 +258,9 @@
             <label for="msg">Message</label>
             <textarea id="msg" name="user_message" rows="4" cols="30">Write your message here...</textarea>
           </li>
-          <input class="btn" type="submit" value="Get in touch">
+          <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
         </ul>
 
       </form>
