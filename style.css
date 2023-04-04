@@ -640,9 +640,9 @@ hr {
 }
 
 form {
-  display: grid;
-  grid-template-columns: (1, 1fr);
-  gap: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 form input {
@@ -758,7 +758,7 @@ label {
   margin: 0.5rem 0 0.3rem 1.2rem;
 
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color:#fff
 }
 
