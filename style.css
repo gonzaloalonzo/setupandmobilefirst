@@ -332,8 +332,12 @@ body {
   height: 76px;
 }
 
+.button ul li{
+  float: left;
+  list-style: non;
+}
+
 .cards .button ul .html {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
@@ -353,7 +357,6 @@ body {
 }
 
 .cards .button ul .css {
-  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;

@@ -182,6 +182,7 @@
           coded, don’t hesitate to contact me.
         </p>
       </article>
+
       <section class="contact">
         <p>LET’S CONNECT</p>
       </section>
@@ -240,13 +241,28 @@
           needs coding.
           I’d love to help with it!</p>
       </header>
+
       <form action="submit">
-        <input type="text" placeholder="Lorem Ipsum">
-        <input type="email" placeholder="loremipsum@gmail.com">
-        <textarea name="texto" rows="4" cols="30">Write your message here...</textarea>
-        <input class="btn" type="submit" value="Get in touch">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" placeholder="Lorem Ipsum">
+          </li>
+
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" placeholder="loremipsum@gmail.com">
+          </li>
+
+          <li>
+            <label for="msg">Message</label>
+            <textarea id="msg" name="user_message" rows="4" cols="30">Write your message here...</textarea>
+          </li>
+          <input class="btn" type="submit" value="Get in touch">
+        </ul>
 
       </form>
+
       <img class="botton" src="./images/Home Indicator/Light.png" alt="">
     </section>
 
