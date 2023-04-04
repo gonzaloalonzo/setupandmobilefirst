@@ -617,7 +617,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 375px;
-  height: 779px;
+  height: auto;
   left: 0;
   flex: grid;
   grid-template-columns: (1, 1fr);
@@ -647,7 +647,7 @@ form {
 
 form input {
   position: relative;
-  width: 25em;
+  width: 20rem;
   height: 3em;
   left: 0;
   right: 0;
@@ -664,7 +664,7 @@ form input::placeholder {
 }
 
 form textarea {
-  width: 25em;
+  width: 20rem;
   height: 10em;
   left: 0;
   right: 0;
@@ -733,10 +733,9 @@ form .btn {
 
 form {
   /* Center the form on the page */
-  margin: 0 auto;
-  width: 400px;
+    margin: 0 auto;
+  width: 350px;
   /* Form outline */
-  padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
 }
@@ -749,13 +748,18 @@ ul {
 
 form li + li {
   margin-top: 1em;
+
 }
 
 label {
   /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
-  text-align: right;
+  margin: 0.5rem 0 0.3rem 1.2rem;
+
+  font-weight: bold;
+  font-size: 0.8rem;
+  color:#fff
 }
 
 input,
@@ -787,12 +791,42 @@ textarea {
 }
 
 .button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+margin-left: 5%;
+margin-bottom: 5%;
+
+display:flex;
+justify-content: center;
+align-content: center;
+
+width: 142px;
+height: 48px;
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+border-radius: 8px;
+  
+  /* same size as the label elements */
 }
 
-button {
+.button button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
-  margin-left: 0.5em;
+    width: 130px;
+    
+
+  border-style: none;
+  color: #6070FF;
+  background-color:transparent;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;  
+
+
+  vertical-align:middle;
+
+
+
 }
