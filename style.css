@@ -126,6 +126,12 @@ body {
   margin-top: 3px;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .socialmedia ul {
   width: 220px;
   margin-top: -174px;
@@ -170,6 +176,10 @@ body {
   align-items: center;
   color: #253858;
   margin-left: 10%;
+}
+
+form li + li {
+  margin-top: 1em;
 }
 
 .legheader ul li {
@@ -300,6 +310,11 @@ body {
   margin-bottom: 6px;
 }
 
+.button ul li {
+  float: left;
+  list-style: non;
+}
+
 .cards .canopy ul li {
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -328,13 +343,19 @@ body {
 }
 
 .button {
-  width: 295px;
-  height: 76px;
-}
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 142px;
+  height: 48px;
 
-.button ul li{
-  float: left;
-  list-style: non;
+  /* Neutrals/N0 */
+  background: #fff;
+  border-radius: 8px;
+
+  /* same size as the label elements */
 }
 
 .cards .button ul .html {
@@ -643,6 +664,28 @@ form {
   display: flex;
   justify-content: center;
   align-content: center;
+
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 350px;
+
+  /* Form outline */
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
 }
 
 form input {
@@ -661,23 +704,6 @@ form input {
 
 form input::placeholder {
   text-indent: 1em;
-}
-
-form textarea {
-  width: 20rem;
-  height: 10em;
-  left: 0;
-  right: 0;
-  margin-left: 5%;
-  top: 10%;
-  bottom: 0;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 5%;
-  resize: none;
-  color: #b3bac5;
-  text-indent: 10px;
-  padding-top: 10px;
 }
 
 form .btn {
@@ -731,55 +757,14 @@ form .btn {
   border-radius: 10px;
 }
 
-form {
-  /* Center the form on the page */
-    margin: 0 auto;
-  width: 350px;
-  /* Form outline */
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
-
-}
-
 label {
   /* Uniform size & alignment */
   display: inline-block;
   width: 90px;
   margin: 0.5rem 0 0.3rem 1.2rem;
-
   font-weight: bold;
   font-size: 0.9rem;
-  color:#fff
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* Uniform text field size */
-  width: 300px;
-  box-sizing: border-box;
-
-  /* Match form field borders */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: #000;
+  color: #fff;
 }
 
 textarea {
@@ -790,43 +775,40 @@ textarea {
   height: 5em;
 }
 
-.button {
-margin-left: 5%;
-margin-bottom: 5%;
+form textarea {
+  width: 20rem;
+  height: 10em;
+  left: 0;
+  right: 0;
+  margin-left: 5%;
+  top: 10%;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 5%;
+  resize: none;
+  color: #b3bac5;
+  text-indent: 10px;
+  padding-top: 10px;
+}
 
-display:flex;
-justify-content: center;
-align-content: center;
-
-width: 142px;
-height: 48px;
-/* Neutrals/N0 */
-
-background: #FFFFFF;
-border-radius: 8px;
-  
-  /* same size as the label elements */
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
 }
 
 .button button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
-    width: 130px;
-    
-
+  width: 130px;
   border-style: none;
-  color: #6070FF;
-  background-color:transparent;
-
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;  
-
-
-  vertical-align:middle;
-
-
-
+  color: #6070ff;
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  vertical-align: middle;
 }
