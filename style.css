@@ -178,7 +178,7 @@ ul {
   margin-left: 10%;
 }
 
-form li + li {
+form li+li {
   margin-top: 1em;
 }
 
@@ -344,6 +344,7 @@ form li + li {
 
 .button {
   margin-left: 5%;
+  margin-top: -35px;
   margin-bottom: 5%;
   display: flex;
   justify-content: center;
@@ -642,6 +643,7 @@ form li + li {
   left: 0;
   flex: grid;
   grid-template-columns: (1, 1fr);
+  border-top-left-radius: 15%;
 }
 
 .contactus header h2 {
@@ -670,7 +672,6 @@ form {
   width: 350px;
 
   /* Form outline */
-  border: 1px solid #ccc;
   border-radius: 1em;
 }
 
@@ -811,4 +812,13 @@ textarea:focus {
   font-size: 17px;
   line-height: 24px;
   vertical-align: middle;
+}
+
+.rectangle {
+  margin-left: 245px;
+  margin-top: -6px;
+}
+
+.ellipse{
+  margin-left: -68px;
 }
