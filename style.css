@@ -178,7 +178,7 @@ ul {
   margin-left: 10%;
 }
 
-form li+li {
+form li + li {
   margin-top: 1em;
 }
 
@@ -819,6 +819,6 @@ textarea:focus {
   margin-top: -6px;
 }
 
-.ellipse{
+.ellipse {
   margin-left: -68px;
 }
