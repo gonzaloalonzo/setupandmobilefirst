@@ -643,7 +643,7 @@ form li + li {
   left: 0;
   flex: grid;
   grid-template-columns: (1, 1fr);
-  border-top-left-radius: 15%;
+  border-top-left-radius: 19%;
 }
 
 .contactus header h2 {
