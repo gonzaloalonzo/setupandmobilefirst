@@ -424,6 +424,10 @@ form li + li {
   height: 220px;
 }
 
+.cardimg:hover {
+  transform: translateY(-5px);
+}
+
 .proyect a {
   width: 250px;
   display: flex;
